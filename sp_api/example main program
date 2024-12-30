@@ -1,0 +1,5 @@
+# Initialize database and process last 30 days of data
+python main.py --connection-string="your_connection_string" --initialize-db
+
+# Process last 7 days with custom batch size
+python main.py --connection-string="your_connection_string" --days-back=7 --batch-size=500
